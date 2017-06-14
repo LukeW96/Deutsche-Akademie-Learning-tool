@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+    <h:head>
+        <title>Deutsche Akademie</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <h:outputStylesheet library="css" name="style.css"  />
+        <h:outputScript library="js" name="inputCharacter.js"/>        
+    </h:head>
+    <h:body>
+        <div id="wrapper">
+            <div id ="banner">
+                <h1>Deutsche Akademie</h1>
+                <ul>
+                    <li><h:link value="Home" outcome="UserOptions" rendered="#{loginBean.studentAdminOrInstructor}" /></li>
+                    <li><h:link value="Vocabulary Test" outcome="testselect" rendered="#{loginBean.studentAdminOrInstructor}" /></li>
+                    <li><h:link value="View Own Grade History" outcome="ViewGrade" rendered="#{loginBean.studentAdminOrInstructor}" /></li>
+                    <li><h:link value="View Other Grade History" outcome="SearchGrade" rendered="#{loginBean.adminOrInstructor}" /></li>
+                    <li><h:link value="Edit Vocabulary" outcome="Vocab" rendered="#{loginBean.instructor}" /></li>
+                    <li><h:link value="Edit Permissions" outcome="EditUser" rendered="#{loginBean.admin}" /></li>
+                    <h:form>
+                        <li><h:commandLink value="Logout" action="#{loginBean.logout}"></h:commandLink></li>
+                    </h:form>
+                </ul>
+            </div>
+            <div id="jsfcontainer">
+                <h2>Add Vocabulary</h2>
+                <h:form id="form">            
+                    <h:panelGrid columns="3">
+                        <h:outputText value="German: "/>
+                        <h:inputText value="#{vocabBean.germanWord}"
+                                     id="germanWord"
+                                     required="true"
+                                     requiredMessage="Please enter a German Word"/>
+                        <h:message for="germanWord" style="color:red"></h:message>
+                        <h:outputText value="Gender: "/> 
+                        <h:inputText value="#{vocabBean.genderWord}"
+                                     id="gender"
+                                     required="true"
+                                     requiredMessage="Please enter a Gender"
+                                     />
+                        <h:message for="gender" style="color:red"></h:message>
+                        <h:outputText value="English: "/>
+                        <h:inputText value="#{vocabBean.englishWord}"
+                                     id="englishWord"
+                                     required="true"
+                                     requiredMessage="Please enter a English Word"/>
+                        <h:message for="englishWord" style="color:red"></h:message>
+                    </h:panelGrid>
+
+                    <p><h:outputText value="#{vocabBean.sqlMessage}"/></p>
+
+                    <h:commandButton value="ä" onclick="addGermanCharacter(this)" type="button"/>
+                    <h:commandButton value="Ä" onclick="addGermanCharacter(this)" type="button"/>
+                    <h:commandButton value="ö" onclick="addGermanCharacter(this)" type="button"/>
+                    <h:commandButton value="Ö" onclick="addGermanCharacter(this)" type="button"/>
+                    <h:commandButton value="ü" onclick="addGermanCharacter(this)" type="button"/>
+                    <h:commandButton value="Ü" onclick="addGermanCharacter(this)" type="button"/>
+                    <h:commandButton value="ß" onclick="addGermanCharacter(this)" type="button"/>
+                    <p>
+                        <h:commandButton class="submit" value="Submit"  action="#{vocabBean.add()}"/>
+                        <h:button class="submit" value="Back" outcome="Vocab"/>
+                    </p> 
+                </h:form>
+            </div>
+        </div>
+    </h:body>
+</html>

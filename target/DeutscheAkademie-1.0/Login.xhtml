@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--Based on: http://www.journaldev.com/7252/jsf-authentication-login-logout-database-example-->
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:h="http://java.sun.com/jsf/html">
+<h:head>
+    <title>Deutsche Akademie Login</title>
+    <h:outputStylesheet library="css" name="style.css"/>
+</h:head>
+    <h:body>
+        <div id="wrapper">
+            <div id ="banner">
+                <h1>Deutsche Akademie</h1>        
+            </div>
+            <div id="jsfcontainer">
+                <h2>Login</h2>
+                <h:form>
+                    <h:panelGrid id="panel" columns="3" cellpadding="10" cellspacing="1">  
+                        <h:outputText value="Username" />
+                        <h:inputText id="username" value="#{loginBean.username}" 
+                                     required = "true" 
+                                     requiredMessage="Please enter a username">
+                        </h:inputText>
+                        <h:message for="username" style="color:red"></h:message>
+                        <h:outputText value="Password" />
+                        <h:inputSecret id="password" value="#{loginBean.password}"
+                                       required = "true" 
+                                       requiredMessage="Please enter a password">
+                        </h:inputSecret>
+                        <h:message for="password" style="color:red"></h:message>
+<!--                        <div id="sub" style="text-align:center;">-->
+                            <h:commandButton id="combut" action="#{loginBean.validateUsernamePassword}"
+                                value="Login" ></h:commandButton>
+                            <h:message for="combut" style="color:red"></h:message>
+<!--                        </div>-->
+                    </h:panelGrid>
+                </h:form>
+            </div>
+        </div>
+    </h:body>
+</html>
+

@@ -1,0 +1,15 @@
+DeutscheAkademie\VocabEntry.class
+DeutscheAkademie\SimpleDataSource.class
+DeutscheAkademie\DatabaseManager.class
+DeutscheAkademie\VocabBean.class
+DeutscheAkademie\LoginBean.class
+DeutscheAkademie\Question.class
+DeutscheAkademie\PasswordEqualsValidator.class
+DeutscheAkademie\SessionBean.class
+DeutscheAkademie\RegistrationBean.class
+DeutscheAkademie\UsernameValidator.class
+DeutscheAkademie\GradeEntry.class
+DeutscheAkademie\AuthorisationFilter.class
+DeutscheAkademie\GradeBean.class
+DeutscheAkademie\TestGeneratorBean.class
+DeutscheAkademie\EditPrivilegeBean.class

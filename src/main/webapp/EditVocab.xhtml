@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+    <h:head>
+        <title>Deutsche Akademie</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <h:outputStylesheet library="css" name="style.css"  />
+        <h:outputScript library="js" name="inputCharacter.js"/>
+    </h:head>
+    <h:body>
+        <div id="wrapper">
+            <div id ="banner">
+                <h1>Deutsche Akademie</h1> 
+                <ul>
+                    <li><h:link value="Home" outcome="UserOptions" rendered="#{loginBean.studentAdminOrInstructor}" /></li>
+                    <li><h:link value="Vocabulary Test" outcome="testselect" rendered="#{loginBean.studentAdminOrInstructor}" /></li>
+                    <li><h:link value="View Own Grade History" outcome="ViewGrade" rendered="#{loginBean.studentAdminOrInstructor}" /></li>
+                    <li><h:link value="View Other Grade History" outcome="SearchGrade" rendered="#{loginBean.adminOrInstructor}" /></li>
+                    <li><h:link value="Edit Vocabulary" outcome="Vocab" rendered="#{loginBean.instructor}" /></li>
+                    <li><h:link value="Edit Permissions" outcome="EditUser" rendered="#{loginBean.admin}" /></li>
+                    <h:form>
+                        <li><h:commandLink value="Logout" action="#{loginBean.logout}"></h:commandLink></li>
+                    </h:form>
+                </ul>
+            </div>
+            <div id="jsfcontainer">
+                <h2>Edit Vocabulary</h2>
+                <h:form id="edit-form">
+                    <p>Search: <h:inputText id="search" value="#{vocabBean.searchTerm}"/> <h:commandButton image="/resources/images/tool.png" action="#{vocabBean.search()}"/></p>
+                    <h:panelGrid columns="2">
+                        <p>Search by</p>
+                        <h:selectOneRadio value = "#{vocabBean.searchOption}">                   
+                            <f:selectItem itemValue="german" itemLabel="German"/>
+                            <f:selectItem itemValue="gender" itemLabel="Gender"/>
+                            <f:selectItem itemValue="english" itemLabel="English"/>
+                        </h:selectOneRadio>
+                    </h:panelGrid>
+
+                    <div class="overflow"> 
+                        <h:dataTable rendered="#{vocabBean.hasSearchData == 1}" class="test" var="item" value="#{vocabBean.sqlSearchData}" >
+                            <h:column>
+                                <f:facet name="header">Vocab ID</f:facet>
+                                #{item.vocabID}
+                            </h:column>
+                            <h:column>
+                                <f:facet name="header">German Word</f:facet>
+                                #{item.germanWord}
+                            </h:column>
+                            <h:column>
+                                <f:facet name="header">Gender Type</f:facet>
+                                #{item.genderType}
+                            </h:column>
+                            <h:column>
+                                <f:facet name="header">English Word</f:facet>
+                                #{item.englishWord}
+                            </h:column>
+                        </h:dataTable>
+                        <h:outputText rendered="#{vocabBean.hasSearchData == 2}" value="No Results Found"/>
+                    </div>
+
+
+
+                    <p>Enter ID of entry you want to edit <h:inputText value="#{vocabBean.vocabID}"/></p>
+                    <h:panelGrid columns="2">
+                        <p>Edit option</p>
+                        <h:selectOneRadio value = "#{vocabBean.editOption}">                    
+                            <f:selectItem itemValue="German" itemLabel="German" />
+                            <f:selectItem itemValue="Gender" itemLabel="Gender"/>
+                            <f:selectItem itemValue="English" itemLabel="English"/>
+                        </h:selectOneRadio>
+                    </h:panelGrid>
+                    <p>Enter New Value <h:inputText id="edit" value="#{vocabBean.editValue}"/></p>
+
+                    <p><h:outputText value="#{vocabBean.sqlMessage}"/></p>
+
+                    <h:commandButton value="ä" onclick="editFormGermanCharacter(this)" type="button"/>
+                    <h:commandButton value="Ä" onclick="editFormGermanCharacter(this)" type="button"/>
+                    <h:commandButton value="ö" onclick="editFormGermanCharacter(this)" type="button"/>
+                    <h:commandButton value="Ö" onclick="editFormGermanCharacter(this)" type="button"/>
+                    <h:commandButton value="ü" onclick="editFormGermanCharacter(this)" type="button"/>
+                    <h:commandButton value="Ü" onclick="editFormGermanCharacter(this)" type="button"/>
+                    <h:commandButton value="ß" onclick="editFormGermanCharacter(this)" type="button"/>
+                     <select id="option">            
+                        <option value="search">Search Field</option>
+                        <option value="edit">Edit Field</option>                
+                    </select>                    
+
+                    <p>
+                        <h:commandButton class="submit" value="Submit" action="#{vocabBean.edit()}"/>
+                        <h:button class="submit" value="Back" outcome="Vocab"/>
+                    </p> 
+
+                </h:form>
+            </div>
+        </div>
+    </h:body>
+</html>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+    <h:head>
+        <title>Deutsche Akademie</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <h:outputStylesheet library="css" name="style.css"  />
+        <h:outputScript library="js" name="inputCharacter.js"/>
+    </h:head>
+    <h:body>
+        <div id="wrapper">
+            <div id ="banner">
+                <h1>Deutsche Akademie</h1>
+                <ul>
+                    <li><h:link value="Home" outcome="UserOptions" rendered="#{loginBean.studentAdminOrInstructor}" /></li>
+                    <li><h:link value="Vocabulary Test" outcome="testselect" rendered="#{loginBean.studentAdminOrInstructor}" /></li>
+                    <li><h:link value="View Own Grade History" outcome="ViewGrade" rendered="#{loginBean.studentAdminOrInstructor}" /></li>
+                    <li><h:link value="View Other Grade History" outcome="SearchGrade" rendered="#{loginBean.adminOrInstructor}" /></li>
+                    <li><h:link value="Edit Vocabulary" outcome="Vocab" rendered="#{loginBean.instructor}" /></li>
+                    <li><h:link value="Edit Permissions" outcome="EditUser" rendered="#{loginBean.admin}" /></li>
+                    <h:form>
+                        <li><h:commandLink value="Logout" action="#{loginBean.logout}"></h:commandLink></li>
+                    </h:form>
+                </ul>
+            </div>
+            <div id="jsfcontainer">
+                <h2>English To German Test</h2>
+                <h:form id="form">
+                <h:dataTable id="table" class="test" value="#{testGeneratorBean.questionList}" var="q">
+                    <h:column>
+                        <f:facet name="header">English</f:facet>
+                        <h:outputText value="#{q.questionValue}"/>
+                    </h:column>
+                    <h:column>
+                        <f:facet name="header">German</f:facet>
+                        <h:inputText id="german" value="#{testGeneratorBean.userAnswer}"/>
+                    </h:column>
+                </h:dataTable>
+                    <p>
+                        <h:commandButton value="ä" onclick="testGermanCharacter(this)" type="button"/>
+                        <h:commandButton value="Ä" onclick="testGermanCharacter(this)" type="button"/>
+                        <h:commandButton value="ö" onclick="testGermanCharacter(this)" type="button"/>
+                        <h:commandButton value="Ö" onclick="testGermanCharacter(this)" type="button"/>
+                        <h:commandButton value="ü" onclick="testGermanCharacter(this)" type="button"/>
+                        <h:commandButton value="Ü" onclick="testGermanCharacter(this)" type="button"/>
+                        <h:commandButton value="ß" onclick="testGermanCharacter(this)" type="button"/>
+
+                        <select id="listbox">                
+                            <option value="0">Q1</option>
+                            <option value="1">Q2</option>
+                            <option value="2">Q3</option>
+                            <option value="3">Q4</option>
+                            <option value="4">Q5</option>
+                            <option value="5">Q6</option>
+                            <option value="6">Q7</option>
+                            <option value="7">Q8</option>
+                            <option value="8">Q9</option>
+                            <option value="9">Q10</option>
+                            <option value="10">Q11</option>
+                            <option value="11">Q12</option>
+                            <option value="12">Q13</option>
+                            <option value="13">Q14</option>
+                            <option value="14">Q15</option>
+                            <option value="15">Q16</option>
+                            <option value="16">Q17</option>
+                            <option value="17">Q18</option>
+                            <option value="18">Q19</option>
+                            <option value="19">Q20</option>
+                        </select>
+
+                    </p>
+
+
+                    <h:commandButton class="submit" value="Submit" action="englishtogermanresults"/>
+                    <h:commandButton class="submit" value="Back" action="testselect"/>
+                </h:form>
+            </div>
+        </div>
+    </h:body>
+</html>

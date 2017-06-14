@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+    <h:head>
+        <title>Deutsche Akademie</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <h:outputStylesheet library="css" name="style.css"  />
+    </h:head>
+    <h:body>
+        <div id="wrapper">
+            <div id ="banner">
+                <h1>Deutsche Akademie</h1>      
+            </div>
+            <div id="jsfcontainer">
+                <h1>Registration Form</h1>
+                <p>Please fill in all fields and click Register</p>
+                <h:form>
+                    <h:panelGrid id="panel" columns="3" cellpadding="10" cellspacing="1">  
+                        <h:outputText value="Forename"/>
+                        <h:inputText id="forename" required = "true" 
+                                     requiredMessage="Please enter a forename"
+                                     value="#{registrationBean.forename}">
+                            <f:validateLength minimum = "0" maximum = "30"/>
+                        </h:inputText>  
+                        <h:message for="forename" style="color:red"></h:message>
+                        <h:outputText value="Surname"/>
+                        <h:inputText  id="surname" required = "true" 
+                                      requiredMessage="Please enter a surname"
+                                      value="#{registrationBean.surname}">
+                            <f:validateLength minimum = "1" maximum = "30"/>
+                        </h:inputText> 
+                        <h:message for="surname" style="color:red"></h:message>
+                        <h:outputText value="Email" />
+                        <h:inputText id="email" value="#{registrationBean.email}" 
+                                     required="true" requiredMessage="Please enter an email" 
+                                     validatorMessage="Please enter a valid email address">
+                            <f:validateRegex pattern="[\w\.-]*[a-zA-Z0-9_]@[\w\.-]*[a-zA-Z0-9]\.[a-zA-Z][a-zA-Z\.]*[a-zA-Z]" />
+                        </h:inputText>
+                        <h:message for="email" style="color:red"></h:message>
+
+                        <h:outputText value="Username" />
+                        <h:inputText id="username" value="#{registrationBean.username}" 
+                                     required="true" requiredMessage="Please enter a username" >
+                            <f:validator validatorId="usernameValidator"/>
+                            <f:validateLength minimum = "1" maximum = "16"/>
+                        </h:inputText>
+                        <h:message for="username" style="color:red"></h:message>
+
+                        <h:outputLabel value="Enter password" />
+                        <h:inputSecret id="password" required = "true" 
+                                       requiredMessage="Please enter a password"
+                                       binding="#{passwordComponent}"
+                                       value="#{registrationBean.password}"
+                                       validatorMessage="Passwords need to be between 8 and 16 characters">
+                            <f:validateLength minimum = "8" maximum = "16"/>
+                        </h:inputSecret> 
+                        <h:message for="password" style="color:red"></h:message>
+                        <h:outputLabel value="Re-enter password" />
+                        <h:inputSecret id="password2" required = "true" 
+                                       requiredMessage="Please confirm your password"
+                                       value="#{registrationBean.passwordConfirm}" 
+                                      >
+                            <f:validator validatorId="passwordEqualsValidator"/>
+                            <f:attribute name="passwordComponent" value="#{passwordComponent.value}" />
+                        </h:inputSecret>   
+                        <h:message for="password2" style="color:red"></h:message>
+                        <h:commandButton id="register" value="Register" action="RegisterSuccess"
+                                         actionListener="#{registrationBean.register}"/>
+                        <h:button id="reset"  value="Reset" />
+                    </h:panelGrid>
+                </h:form>
+                
+            </div>
+        </div>
+    </h:body>
+</html>

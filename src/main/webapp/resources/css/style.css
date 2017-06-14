@@ -1,0 +1,143 @@
+/*.
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21-Apr-2016, 15:59:36
+    Author     : Luke Williams
+*/
+
+#wrapper
+{
+    width: 863px;
+    border: 2px solid #ccc;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#banner p 
+{
+    text-align: right;
+    display:inline;
+    float:right;
+}
+
+h1
+{
+    font-size: 40px;
+    text-align: center;  
+}
+h2
+{
+    font-size: 30px;
+    font-variant: small-caps;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: #808080;
+}
+
+
+h3
+{
+    font-size: 22px;
+}
+h4
+{
+    font-size: 18px;
+}
+
+#jsfcontainer
+{
+    margin: 0 auto;
+    width: 600px;
+    margin-bottom:20px;
+    text-align: center;
+}
+
+
+#banner {
+	width: 100%;
+	float: left;
+	margin: 0 0 1em 0;
+	padding: 0;
+	background-color: #f2f2f2;
+	border-bottom: 1px solid #ccc;  
+}
+
+#banner ul {
+	list-style: none;
+	width:100%;
+	margin: 0 auto;
+	padding: 0; 
+        border-top: 1px solid #ccc;
+}
+
+#banner li {
+	float: left; 
+}
+
+#banner li a {
+	display: block;
+	padding: 8px 15px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #069;
+	border-right: 1px solid #ccc; 
+}
+#banner li:first-child a {
+	border-left: 1px solid #ccc; 
+}
+
+#banner li a:hover {
+	color: #c00;
+	background-color: #fff; 
+}
+
+.test 
+{
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+.overflow{
+    overflow:auto; 
+    height:200px;
+    margin-left:auto; 
+    margin-right:auto; 
+}
+
+#jsfcontainer table
+{
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+.submit
+{
+    margin: 5px;
+    display: inline;
+}
+
+.test {
+     border-collapse: collapse;  
+}
+
+ .test table, .test th, .test td {
+     border: 1px solid #ccc;
+         text-align: right;
+}
+
+.test tr:nth-child(even) {background-color: #f2f2f2}
+
+a 
+{
+    text-decoration: none;
+    font-weight: bold;
+    color: #069; 
+}
+
+a:hover {
+	color: #c00;
+	background-color: #fff; 
+}

@@ -1,0 +1,934 @@
+Ampel,f,traffic light
+Aufzug,m,lift
+Bauer,m,farmer
+Bäuerin,f,farmer
+Bauernhof,m,farm
+Baum,m,tree
+Berg,m,mountain
+Bibliothek,f,library
+Blume,f,flower
+Brücke,f,bridge
+Brunnen,m,fountain
+Burg,f,castle
+Einwohner,m,inhabitant
+Ente,f,duck
+Etage,f,floor
+Fahrstuhl,m,lift
+Fluss,m,river
+Fuß,m,foot
+Fußgänger,m,pedestrian
+Galerie,f,gallery
+Gegend,f,area
+Hafen,m,port
+Hügel,m,hill
+Katze,f,cat
+Kreuzung,f,crossroads
+Kuh,f,cow
+Laden,m,shop
+Landschaft,f,landscape
+Lift,m,lift
+Mücke,f,midge
+Ort,m,place
+Palast,m,palace
+Park,m,park
+Parkplatz,m,car park
+Platz,m,square
+Polizei,f,police
+Polizeiwache,f,police station
+Region,f,region
+See,m,lake
+Sehenswürdigkeit,f,sight
+Stadt,f,town
+Stadtmitte,f,town centre
+Stock,m,floor
+Straße,f,road
+Turm,m,tower
+Verkehr,m,traffic
+Verkehrsampel,f,traffic light
+Vorort,m,suburb
+Vorstadt,f,suburbs
+Zeitungskiosk,m,newspaper stand
+Donner,m,thunder
+Grad,m,degree
+Himmel,m,sky
+Hitze,f,heat
+Jahreszeit,f,season
+Kälte,f,cold
+Mantel,m,coat
+Nebel,m,fog
+Nord,m,north
+Ost,m,east
+Regen,m,rain
+Regenmantel,m,raincoat
+Regenschauer,m,shower
+Regenschirm,m,umbrella
+Schnee,m,snow
+Sonne,f,sun
+Stern,m,star
+Sturm,m,storm
+Süd,m,south
+Temperatur,f,temperature
+West,m,west
+Wetterbericht,m,weather report
+Wettervorhersage,f,weather forecast
+Wind,m,wind
+Wolke,f,cloud
+Abfahrt,f,departure
+Abreise,f,departure
+Ankunft,f,arrival
+Ausfahrt,f,exit
+Ausgang,m,way out
+Ausweis,m,identity card
+Autobahn,f,motorway
+Bahn,f,train
+Bahnhof,m,railway station
+Bahnsteig,m,platform
+Bus,m,bus
+Busbahnhof,m,bus station
+Ecke,f,corner
+Einzelfahrkarte,f,single ticket
+Eisenbahn,f,train
+Eurotunnel,m,Channel Tunnel
+Fähre,f,ferry
+Fahrkarte,f,ticket
+Fahrt,f,journey
+Flughafen,m,airport
+Führerschein,m,driving licence
+Fußgänger,m,pedestrian
+Geschwindigkeit,f,speed
+Grenze,f,border
+Haltestelle,f,stop
+Heimfahrt,f,journey home
+Rückfahrkarte,f,return ticket
+Schalter,m,ticket counter
+Sicherheit,f,safety
+Stau,m,traffic jam
+Straßenbahn,f,tram
+Tankstelle,f,petrol station
+Tür,f,door
+Unfall,m,accident
+Verkehr,m,traffic
+Verspätung,f,delay
+Vorfahrt,f,right of way
+Wagen,m,car
+Warteraum,m,waiting room
+Zoll,m,customs
+Zug,m,train
+Aktivität,f,activity
+Aufenthalt,m,stay
+Aussicht,f,view
+Balkon,m,balcony
+Broschüre,f,brochure
+Camcorder,m,camcorder
+Campingplatz,m,camp site
+Dusche,f,shower
+Empfang,m,reception
+Fotoapparat,m,camera
+Gebühr,f,charge
+Jugendherberge,f,youth hostel
+Kamera,f,camera
+Klimatisierung,f,air conditioning
+Koffer,m,suitcase
+Miete,f,rent
+Pass,m,passport
+Pension,f,guest house
+Person,f,person
+Postkarte,f,postcard
+Preis,m,price
+Sand,m,sand
+Sandburg,f,sand castle
+Schlafsack,m,sleeping bag
+See,f,sea
+Sommer,m,summer
+Sonnenbrille,f,sunglasses
+Sonnencreme,f,sun cream
+Stadtplan,m,street map
+Strand,m,beach
+Taschenlampe,f,torch
+Unterkunft,f,accommodation
+Urlaub,m,holiday
+Vollpension,f,full board
+Wasserski,m,waterskiing
+Wechsel,m,change
+Zeitraum,m,period of time
+Auskunft,f,information
+Briefmarke,f,postage stamp
+Bibliothek,f,library
+Briefkasten,m,letter box
+Deutsche Post,f,German postal service
+Fehler,m,mistake
+Fehler,m,fault
+Nachname,m,family name
+Notanruf,m,emergency call
+Polizeiwache,f,police station
+Tasche,f,bag
+Telefonzelle,f,telephone box
+Verlust,m,loss
+Vorname,m,first name
+Wechselstube,f,bureau de change
+Dom,m,cathedral
+Geburt,f,birth
+Geburtstag,m,birthday
+Glückwunschkarte,f,greetings card
+Karneval,m,carnival
+Kathedrale,f,cathedral
+Kerze,f,candle
+Kirche,f,church
+Moschee,f,mosque
+Muttertag,m,Mothers Day
+Vatertag,m,Fathers Day
+Neujahrstag,m,new years day
+Sekt,m,champagne
+Silvester,m,New Years Eve
+Tod,m,death
+Valentinstag,m,Valentines Day
+Weihnachtsbaum,m,Christmas tree
+Weihnachtsmann,m,Father Christmas
+Kindheit,f,childhood
+Puppe,f,doll
+Abschlussprüfung,f,final exam
+Aula,f,hall
+Aussprache,f,pronunciation
+Austausch,m,exchange
+Beamer,m,data projector
+Bibliothek,f,library
+Bildschirm,m,screen
+Bildung,f,education
+Biologie,f,biology
+Bleistift,m,pencil
+Bluse,f,blouse
+Chemie,f,chemistry
+Computer,m,computer
+Erdkunde,f,geography
+Erziehung,f,education
+Fehler,m,mistake
+Fortschritt,m,progress
+Geschichte,f,history
+Grundschule,f,primary school
+Hauptschule,f,secondary school
+Hausaufgabe,f,homework
+Hof,m,playground
+Hose,f,trousers
+Informatik,f,computer science
+Kindergarten,m,nursery school
+Klassenarbeit,f,class test
+Kopfhörer,m,headphones
+Krawatte,f,tie
+Kugelschreiber,m,ballpoint pen
+Kuli,m,ballpoint pen
+Kunst,f,art
+Mappe,f,briefcase
+Mathe,f,maths
+Mittagspause,f,lunch break
+Musik,f,music
+Musiksaal,m,music room
+Note,f,mark
+Pause,f,break
+Physik,f,physics
+Plan,m,plan
+Prüfung,f,exam
+Psychologie,f,psychology
+Qualifikation,f,qualification
+Rechner,m,calculator
+Regel,f,rule
+Religion,f,religious education
+Rock,m,skirt
+Rucksack,m,backpack
+Schlips,m,tie
+Schuh,m,shoe
+Schule,f,school
+Schulhof,m,playground
+Schultag,m,school day
+Socke,f,sock
+Sozialkunde,f,social studies
+Speisesaal,m,dining room
+Spitzer,m,sharpener
+Sport,m,sport
+Sprache,f,language
+Stift,m,pen
+Strumpfhose,f,tights
+Stundenplan,m,timetable
+Stunde,f,lesson
+Stundenplan,m,timetable
+Tafel,f,board
+Tasche,f,bag
+Taschenrechner,m,pocket calculator
+Teil,m,part
+Tennisplatz,m,tennis court
+Trainingsanzug,m,tracksuit
+Turnhalle,f,gym
+Umkleideraum,m,changing room
+Unterricht,m,lesson
+Anrufbeantworter,m,answerphone
+Arbeit,f,work
+Arbeitslosigkeit,f,unemployment
+Ausbildung,f,apprenticeship
+Beruf,m,occupation
+Bewerbung,f,application
+Fabrik,f,factory
+Ferienjob,m,holiday job
+Firma,f,firm
+Gesellschaft,f,company
+Grad,m,degree
+Kasse,f,till
+Kauffrau,f,businesswoman
+Kaufmann,m,businessman
+Kindergarten,m,nursery
+Lehre,f,apprenticeship
+Lehrling,m,apprentice
+Lohn,m,wages
+Stelle,f,job
+Stellenanzeige,f,job advertisement
+Termin,m,appointment
+Verabredung,f,appointment
+Werbung,f,advertisement
+Karriere,f,career
+Universität,f,university
+Zukunft,f,future
+Badewanne,f,bath tub
+Bauernhof,m,farm
+Boden,m,floor
+Bratpfanne,f,frying pan
+Decke,f,ceiling
+Dosenöffner,m,tin opener
+Flaschenöffner,m,bottle opener
+Flur,m,hall
+Fußboden,m,floor
+Gardine,f,net curtain
+Garten,m,garden
+Gefrierschrank,m,freezer
+Geschirrspülmaschine,f,dishwasher
+Hahn,m,tap
+Herd,m,cooker
+Keller,m,cellar
+Küche,f,kitchen
+Kühlschrank,m,fridge
+Mauer,f,wall
+Mikrowelle,f,microwave
+Mikrowellenherd,m,microwave oven
+Pflanze,f,plant
+Rasen,m,lawn
+Schlüssel,m,key
+Sessel,m,armchair
+Stereoanlage,f,stereo system
+Stock,m,floor
+Stuhl,m,chair
+Tasse,f,cup
+Teppichboden,m,fitted carpet
+Teppich,m,carpet
+Terrasse,f,patio
+Tiefkühltruhe,f,freezer
+Toilette,f,toilet
+Treppe,f,stairs
+Tür,f,door
+Vorhang,m,curtain
+Waschmaschine,f,washing machine
+Wasserhahn,m,tap
+Wohnung,f,flat
+Adresse,f,address
+Bart,m,beard
+Brille,f,glasses
+Bruder,m,brother
+Familie,f,family
+Familienname,m,surname
+Frau,f,woman
+Freundschaft,f,friendship
+Glatze,f,bald head
+Goldfisch,m,goldfish
+Großmutter,f,grandmother
+Großvater,m,grandfather
+Hausfrau,f,housewife
+Hund,m,dog
+Junge,m,boy
+Katze,f,cat
+Mann,m,man
+Maus,f,mouse
+Mund,m,mouth
+Mutter,f,mother
+Mutti,f,mum
+Nachname,m,surname
+Name,m,name
+Neffe,m,nephew
+Nichte,f,niece
+Oma,f,grandma
+Onkel,m,uncle
+Opa,m,granddad
+Schildkröte,f,tortoise
+Schwester,f,sister
+Sohn,m,son
+Staatsangehörigkeit,f,nationality
+Stimme,f,voice
+Tante,f,aunt
+Tochter,f,daughter
+Vater,m,father
+Vati,m,dad
+Verwandtschaft,f,relations
+Vorname,m,first name
+Zwilling,m,twin
+Abfall,m,rubbish
+Anhänger,m,pendant
+Armbanduhr,f,wristwatch
+Baumwolle,f,cotton
+Bettdecke,f,blanket
+Blume,f,flower
+Brille,f,glasses
+Decke,f,blanket
+Dosenöffner,m,can opener
+Flaschenöffner,m,bottle opener
+Gabel,f,fork
+Geschirrspüler,m,dishwasher
+Gürtel,m,belt
+Haarbürste,f,hairbrush
+Handschuh,m,glove
+Handtasche,f,handbag
+Hose,f,pair of trousers
+Jacke,f,jacket
+Kaffeemaschine,f,coffee maker
+Kochtopf,m,saucepan
+Lippenstift,m,lipstick
+Löffel,m,spoon
+Müll,m,rubbish
+Mülleimer,m,dustbin
+Pulli,m,sweater
+Pullover,m,sweater
+Ring,m,ring
+Schlafanzug,m,pyjamas
+Schlüsselbund,m,key ring
+Schminke,f,makeup
+Schüssel,f,bowl
+Schrank,m,cupboard
+Schublade,f,drawer
+Seife,f,soap
+Staubsauger,m,vacuum cleaner
+Strumpfhose,f,tights
+Tasse,f,cup
+Teller,m,plate
+Tischdecke,f,tablecloth
+Topf,m,saucepan
+Trainingsanzug,m,tracksuit
+Uhr,f,watch
+Wecker,m,alarm clock
+Zahnbürste,f,toothbrush
+Ananas,f,pineapple
+Apfel,m,apple
+Apfelsine,f,orange
+Apfelwein,m,cider
+Aprikose,f,apricot
+Banane,f,banana
+Blumenkohl,m,cauliflower
+Blutwurst,f,black pudding
+Bonbon,m,sweet
+Bratwurst,f,fried sausage
+Butter,f,butter
+Champignon,m,mushroom
+Dose,f,tin
+Eintopf,m,stew
+Birne,f,pear
+Ente,f,duck
+Entenfleisch,n,duck
+Erdbeere,f,strawberry
+Essig,m,vinegar
+Fisch,m,fish
+Geschmack,m,flavour
+Gurke,f,cucumber
+Himbeere,f,raspberry
+Imbiss,m,snack
+Joghurt,m,yoghurt
+Kaffee,m,coffee
+Kartoffel,f,potato
+Karotte,f,carrot
+Käse,m,cheese
+Kirsche,f,cherry
+Kohl,m,cabbage
+Konditorei,f,cake shop
+Krabbe,f,shrimp
+Kuchen,m,cake
+Lachs,m,salmon
+Leberwurst,f,liver sausage
+Limonade,f,lemonade
+Mahlzeit,f,meal
+Marmelade,f,jam
+Metzgerei,f,butchers
+Milch,f,milk
+Nachspeise,f,dessert
+Orange,f,orange
+Pfannkuchen,m,pancake
+Pfeffer,m,pepper
+Pfirsich,m,peach
+Pflaume,f,plum
+Pute,f,turkey
+Reis,m,rice
+Rettich,m,radish
+Rosenkohl,m,sprouts
+Rotkohl,m,red cabbage
+Rotwein,m,red wine
+Saft,m,juice
+Sahne,f,cream
+Salat,m,lettuce
+Scheibe,f,slice
+Schinken,m,ham
+Schokolade,f,chocolate
+Senf,m,mustard
+Speck,m,bacon
+Speise,f,meal
+Suppe,f,soup
+Tee,m,tea
+Thunfisch,m,tuna
+Toast,m,toast
+Tomate,f,tomato
+Torte,f,gateau
+Traube,f,grape
+Vorspeise,f,starter
+Waffel,f,waffle
+Wein,m,wine
+Weißwein,m,white wine
+Wurst,f,sausage
+Zitrone,f,lemon
+Zucker,m,sugar
+Zwiebel,f,onion
+Angriff,m,attack
+Debatte,f,debate
+Demonstration,f,demonstration
+Droge,f,drug
+Entdeckung,f,discovery
+Grenze,f,border
+Königin,f,queen
+König,m,king
+Krise,f,crisis
+Medaille,f,medal
+Nobelpreis,m,Nobel Prize
+Politik,f,politics
+Preis,m,prize
+Rakete,f,rocket
+Tagesschau,f,television news
+Weltraum,m,space
+Dürre,f,drought
+Energie,f,energy
+Erde,f,earth
+Erwärmung,f,warming
+Holz,m,wood
+Katastrophe,f,catastrophe
+Kohle,f,coal
+Ölteppich,m,oil slick
+Regenwald,m,rainforest
+Sauerregen,m,acid rain
+Tierart,f,animal species
+Tornado,m,tornado
+Treibhauseffekt,m,greenhouse effect
+Überschwemmung,f,flood
+Umwelt,f,environment
+Verkehr,m,traffic
+Verkehrsstau,m,traffic jam
+Welle,f,wave
+Welt,f,world
+Bilderroman,m,graphic novel
+Dokumentation,f,documentary
+Eingang,m,entrance
+Eintritt,m,admission
+Fan,m,fan
+Fernsehsendung,f,television programme
+Fernseher,m,television
+Gameshow,f,game show
+Gruselfilm,m,horror film
+Karte,f,ticket
+Komödie,f,comedy
+Mode,f,fashion
+Nachrichtensendung,f,news broadcast
+Platz,m,seat
+Preis,m,price
+Seifenoper,f,soap opera
+Sender,m,broadcaster
+Sendung,f,programme
+Serie,f,series
+Sitcom,f,sitcom
+Sitz,m,seat
+Star,m,star
+Tagesschau,f,television news
+Trickfilm,m,cartoon
+Vorstellung,f,performance
+Werbespot,m,advertisement
+Zeitung,f,newspaper
+Bildschirm,m,screen
+Chatroom,m,chat room
+Computer,m,computer
+Cursor,m,cursor
+Maus,f,mouse
+Musik,f,music
+SMS,f,text message
+Software,f,software
+Tastatur,f,keyboard
+Website,f,website
+Ausflug,m,outing
+Ausgang,m,exit
+Braut,f,bride
+Bräutigam,m,bridegroom
+Flasche,f,bottle
+Feiertag,m,public holiday
+Freizeitpark,m,theme park
+Geburtstag,m,birthday
+Hochzeit,f,wedding
+Kuchen,m,cake
+Ring,m,ring
+Serviette,f,serviette
+Tiergarten,m,zoo
+Tischdecke,f,table cloth
+Verlobung,f,engagement
+Vorstellung,f,show
+Wasserpark,m,water park
+Zeremonie,f,ceremony
+Zirkus,m,circus
+Zoo,m,zoo
+Angelrute,f,fishing rod
+Ball,m,ball
+Blockflöte,f,recorder
+Disko,f,disco
+Eisbahn,f,skating rink
+Flöte,f,flute
+Freizeit,f,free time
+Fußball,m,football
+Gartenarbeit,f,gardening
+Geige,f,violin
+Imbissstube,f,snack bar
+Jugendklub,m,youth club
+Kegelbahn,f,bowling alley
+Leichtathletik,f,athletics
+Mannschaft,f,team
+Nachtklub,m,nightclub
+Roman,m,novel
+Schläger,m,racket
+Trommel,f,drum
+Trompete,f,trumpet
+Abteilung,f,department
+Ausverkauf,m,clearance sale
+Auswahl,f,selection
+Bäckerei,f,bakers shop
+Bank,f,bank
+Buchhandlung,f,bookshop
+Debitkarte,f,debit card
+Größe,f,size
+Hut,m,hat
+Kasse,f,till
+Kreditkarte,f,credit card
+Laden,m,small shop
+Markt,m,market
+Metzgerei,f,butcher's shop
+Münze,f,coin
+Preis,m,price
+Rechnung,f,bill
+Reisescheck,m,travellers cheque
+Schaufensterbummel,m,window shopping
+Scheck,m,cheque
+Schlussverkauf,m,end of season sale
+Souvenirladen,m,souvenir
+Sparkasse,f,savings bank
+Supermarkt,m,supermarket
+Tasche,f,bag
+Wechselstube,f,bureau de change
+Alkohol,m,alcohol
+Arm,m,arm
+Bauch,m,tummy
+Brust,f,chest
+Durchfall,m,diarrhoea
+Finger,m,finger
+Fuß,m,foot
+Gesundheit,f,health
+Grippe,f,flu
+Hals,m,throat
+Hand,f,hand
+Hilfe,f,help
+Kleidung,f,clothing
+Klinik,f,clinic
+Kopf,m,head
+Körper,m,body
+Krankenpfleger,m,male nurse
+Krankenschwester,f,female nurse
+Krankenwagen,m,ambulance
+Krankheit,f,illness
+Magen,m,stomach
+Mund,m,mouth
+Nase,f,nose
+Pille,f,pill
+Sonnenbrand,m,sunburn
+Sprechstunde,f,surgery
+Spritze,f,injection
+Stich,m,sting
+Stress,m,stress
+Tabak,m,tobacco
+Tablette,f,tablet
+Temperatur,f,temperature
+Termin,m,appointment
+Übung,f,exercise
+Unfall,m,accident
+Untersuchung,f,examination
+Zahn,m,tooth
+Zehe,f,toe
+Zigarette,f,cigarette
+Zunge,f,tongue
+Spaß,m,fun
+Dose,f,tin
+Flasche,f,bottle
+Hälfte,f,half
+Packung,f,pack
+Schachtel,f,box
+Scheibe,f,slice
+Abend,m,evening
+Anfang,m,beginning
+Mittag,m,midday
+Mitternacht,f,midnight
+Monat,m,month
+Morgen,m,morning
+Nachmittag,m,afternoon
+Nacht,f,night
+Tag,m,day
+Vormittag,m,morning
+Woche,f,week
+Zeit,f,time
+Art,f,sort
+Mitte,f,middle
+Nummer,f,number
+Sache,f,thing
+Schluss,m,end
+Zahl,f,number
+Zeit,f,time
+Franzose,m,Frenchman
+Französin,f,Frenchwoman
+Ampel,f,traffic light
+Dorf,n,village
+Gasthaus,n,inn
+Gebäude,n,building
+Geschäft,n,shop
+Gras,n,grass
+Hobby,n,hobby
+Hühnchen,n,chicken
+Land,n,country
+Museum,n,museum
+Pferd,n,horse
+Plakat,n,poster
+Poster,n,poster
+Rathaus,n,town hall
+Schaf,n,sheep
+Schloss,n,castle
+Schwein,n,pig
+Schwimmbad,n,swimming pool
+Sportzentrum,n,sports centre
+Stadion,n,stadium
+Stockwerk,n,floor
+Viertel,n,district
+Eis,n,ice
+Klima,n,climate
+Wetter,n,weather
+Ausland,n,foreign countries
+Auto,n,car
+Benzin,n,petrol
+Boot,n,boat
+Fahrrad,n,bicycle
+Flugzeug,n,plane
+Gepäck,n,luggage
+Gleis,n,track
+Schiff,n,ship
+Taxi,n,taxi
+Doppelbett,n,double bed
+Formular,n,form
+Land,n,country
+Touristenbüro,n,tourist office
+Verkehrsamt,n,tourist office
+Windsurfbrett,n,windsurfing board
+Zelt,n,tent
+Fundbüro,n,lost property office
+Geld,n,money
+Informationsbüro,n,information
+Postamt,n,post office
+Fest,n,celebration
+Feuerwerk,n,fireworks
+Geschenk,n,present
+Lagerfeuer,n,bonfire
+Licht,n,light
+Neujahr,n,New Year
+Ostern,n,Easter
+Streichholz,n,match
+Weihnachten,n,Christmas
+Baby,n,baby
+Kind,n,child
+Spiel,n,game
+Spielzeug,n,toy
+Beispiel,n,example
+Bild,n,picture
+Blatt,n,sheet of paper
+Buch,n,book
+Büro,n,office
+Deutsch,n,German
+Englisch,n,English
+Fach,n,subject
+Französisch,n,French
+Gebäude,n,building
+Gymnasium,n,grammar school
+Heft,n,exercise book
+Hemd,n,shirt
+Klassenzimmer,n,classroom
+Kleid,n,dress
+Labor,n,laboratory
+Lehrerzimmer,n,staff room
+Lieblingsfach,n,favourite subject
+Lineal,n,ruler
+Mittagessen,n,lunch
+Papier,n,paper
+Radiergummi,n,rubber
+Semester,n,semester
+Spanisch,n,Spanish
+Studium,n,study
+Textbuch,n,text book
+Turnen,n,PE
+Wort,n,word
+Wörterbuch,n,dictionary
+Zeugnis,n,report
+Büro,n,office
+Formular,n,form
+Gehalt,n,salary
+Model,n,model
+Telefonat,n,telephone call
+Diplom,n,diploma
+Interview,n,interview
+Vorstellungsgespräch,n,interview
+Bad,n,bath
+Badezimmer,n,bathroom
+Bett,n,bed
+Büro,n,office
+Dach,n,roof
+Einfamilienhaus,n,detached house
+Erdgeschoss,n,ground floor
+Esszimmer,n,dining room
+Fenster,n,window
+Gas,n,gas
+Glas,n,glass
+Haus,n,house
+Klo,n,loo
+Licht,n,light
+Messer,n,knife
+Schlafzimmer,n,bedroom
+Sofa,n,sofa
+Waschbecken,n,washbasin
+Wohnzimmer,n,sitting room
+Zimmer,n,room
+Baby,n,baby
+Einzelkind,n,only child
+Haustier,n,pet
+Kaninchen,n,rabbit
+Kind,n,child
+Mädchen,n,girl
+Meerschweinchen,n,guinea pig
+Bettlaken,n,sheet
+ein Paar,n,a couple
+Gesicht,n,face
+Glas,n,glass
+Kleidungsstück,n,garment
+Kopfkissen,n,pillow
+Messer,n,knife
+Regal,n,shelf
+Shampoo,n,shampoo
+Spülbecken,n,kitchen sink
+Sweatshirt,n,sweatshirt
+Bier,n,beer
+Brot,n,bread
+Brötchen,n,bread roll
+Butterbrot,n,sandwich
+Ei,n,egg
+Eis,n,ice
+Essen,n,food
+Fleisch,n,meat
+Frühstück,n,breakfast
+Gebäck,n,biscuits
+Gemüse,n,vegetables
+Getränk,n,drink
+Hähnchen,n,chicken
+Hammelfleisch,n,mutton
+Kalbfleisch,n,veal
+Kaninchen,n,rabbit
+Käsebrot,n,cheese sandwich
+Kotelett,n,chop
+Lammfleisch,n,lamb
+Mehl,n,flour
+Mineralwasser,n,mineral water
+Mittagessen,n,lunch
+Öl,n,oil
+Omelett,n,omelette
+Rezept,n,recipe
+Rindfleisch,n,beef
+Salz,n,salt
+Sauerkraut,n,pickled cabbage
+Schinkenbrot,n,ham sandwich
+Schnitzel,n,escalope
+Schweinefilet,n,pork fillet
+Schweinefleisch,n,pork
+Spiegelei,n,fried egg
+Stück,n,piece
+Süßwarengeschäft,n,sweet shop
+Wasser,n,water
+Würstchen,n,little sausage
+Weißes Haus,n,White House
+Benzin,n,petrol
+Erdbeben,n,earthquake
+Erdöl,n,crude oil
+Öl,n,oil
+Opfer,n,victim
+Recycling,n,recycling
+Ende,n,end
+Lied,n,song
+Programm,n,programme
+Radio,n,radio
+Mobiltelefon,n,mobile phone
+Passwort,n,password
+Satellitenfernsehen,n,satellite TV
+soziales Netz,n,social network
+Band,n,ribbon
+Geschenk,n,present
+Kleid,n,dress
+Licht,n,light
+Museum,n,museum
+Picknick,n,picnic
+Tier,n,animal
+Willkommen,n,welcome
+Brettspiel,n,board game
+Gewichtstraining,n,weight training
+Hobby,n,hobby
+Inlineskaten,n,roller blading
+Klavier,n,piano
+Lesen,n,reading
+Schach,n,chess
+Schlagzeug,n,drums
+Spiel,n,game
+Spielzeug,n,toy
+Sportzentrum,n,sports centre
+Stadion,n,stadium
+Turnen,n,gymnastics
+Einkaufszentrum,n,shopping centre
+Kaufhaus,n,department store
+Leder,n,leather
+Portemonnaie,n,purse
+Schaufenster,n,shop window
+Schmuckgeschäft,n,jewellery shop
+Schreibwarengeschäft,n,stationery shop
+Taschengeld,n,pocket money
+Asthma,n,asthma
+Auge,n,eye
+Bein,n,leg
+Blut,n,blood
+Fieber,n,temperature
+Gesicht,n,face
+Herz,n,heart
+Knie,n,knee
+Krankenhaus,n,hospital
+Medikament,n,medicine
+Ohr,n,ear
+Pflaster,n,plaster
+Rezept,n,prescription
+Taschentuch,n,handkerchief
+Drittel,n,third
+Dutzend,n,dozen
+Kännchen,n,jug
+Päckchen,n,packet
+Paket,n,pack
+Stück,n,piece
+Viertel,n,quarter
+Jahr,n,year
+Ding,n,thing
+Ende,n,end

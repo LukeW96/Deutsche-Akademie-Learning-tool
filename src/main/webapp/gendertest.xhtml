@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+    <h:head>
+        <title>Deutsche Akademie</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <h:outputStylesheet library="css" name="style.css"  />
+    </h:head>
+    <h:body>
+        <div id="wrapper">
+            <div id ="banner">
+                <h1>Deutsche Akademie</h1>    
+                <ul>
+                    <li><h:link value="Home" outcome="UserOptions" rendered="#{loginBean.studentAdminOrInstructor}" /></li>
+                    <li><h:link value="Vocabulary Test" outcome="testselect" rendered="#{loginBean.studentAdminOrInstructor}" /></li>
+                    <li><h:link value="View Own Grade History" outcome="ViewGrade" rendered="#{loginBean.studentAdminOrInstructor}" /></li>
+                    <li><h:link value="View Other Grade History" outcome="SearchGrade" rendered="#{loginBean.adminOrInstructor}" /></li>
+                    <li><h:link value="Edit Vocabulary" outcome="Vocab" rendered="#{loginBean.instructor}" /></li>
+                    <li><h:link value="Edit Permissions" outcome="EditUser" rendered="#{loginBean.admin}" /></li>
+                    <h:form>
+                        <li><h:commandLink value="Logout" action="#{loginBean.logout}"></h:commandLink></li>
+                    </h:form>
+                </ul>
+            </div>
+            <div id="jsfcontainer">
+                <h2>German Gender Test</h2>
+                <h:form>
+                <h:dataTable class="test" value="#{testGeneratorBean.questionList}" var="q" border="1" >
+                    <h:column>
+                        <f:facet name="header">German Word</f:facet>
+                        <h:outputText value="#{q.questionValue}"/>
+                    </h:column>
+                    <h:column>
+                        <f:facet name="header">Gender</f:facet>
+                        <h:inputText value="#{testGeneratorBean.userAnswer}"/>
+                    </h:column>
+                </h:dataTable>
+                    <h:commandButton class="submit" value="Submit" action="gendertestresults"/>
+                    <h:commandButton class="submit" value="Back" action="testselect"/>
+                </h:form>
+            </div>
+        </div>
+    </h:body>
+</html>

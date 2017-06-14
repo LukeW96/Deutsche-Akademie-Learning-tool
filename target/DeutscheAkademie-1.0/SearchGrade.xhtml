@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+    <h:head>
+        <title>Deutsche Akademie</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <h:outputStylesheet library="css" name="style.css"  />
+    </h:head>
+    <h:body>
+        <div id="wrapper">
+            <div id ="banner">
+                <h1>Deutsche Akademie</h1>
+                <ul>
+                    <li><h:link value="Home" outcome="UserOptions" rendered="#{loginBean.studentAdminOrInstructor}" /></li>
+                    <li><h:link value="Vocabulary Test" outcome="testselect" rendered="#{loginBean.studentAdminOrInstructor}" /></li>
+                    <li><h:link value="View Own Grade History" outcome="ViewGrade" rendered="#{loginBean.studentAdminOrInstructor}" /></li>
+                    <li><h:link value="View Other Grade History" outcome="SearchGrade" rendered="#{loginBean.adminOrInstructor}" /></li>
+                    <li><h:link value="Edit Vocabulary" outcome="Vocab" rendered="#{loginBean.instructor}" /></li>
+                    <li><h:link value="Edit Permissions" outcome="EditUser" rendered="#{loginBean.admin}" /></li>
+                    <h:form>
+                        <li><h:commandLink value="Logout" action="#{loginBean.logout}"></h:commandLink></li>
+                    </h:form>
+                </ul>
+            </div>
+            <div id="jsfcontainer">
+                <h2>Grade Search</h2>
+                <h:form>
+                    <p>Search: <h:inputText value="#{gradeBean.searchTerm}"/> <h:commandButton image="/resources/images/tool.png" action="#{gradeBean.search()}"/></p>
+                    <h:panelGrid columns="2">
+                        <p>Search by</p>
+                        <h:selectOneRadio value = "#{gradeBean.searchOption}">
+                            <f:selectItem itemValue="userID" itemLabel="User ID"/>
+                            <f:selectItem itemValue="fName" itemLabel="Forename"/>
+                            <f:selectItem itemValue="sName" itemLabel="Surname"/>
+                            <f:selectItem itemValue="resultDate" itemLabel="Date"/>
+                            <f:selectItem itemValue="reportType" itemLabel="Test Type"/>
+                        </h:selectOneRadio>
+                    </h:panelGrid>
+                </h:form>
+                <div class="overflow"> 
+                    <h:dataTable rendered="#{gradeBean.hasSearchData == 1}" class="test" var="item" value="#{gradeBean.sqlSearchData}" >
+                        <h:column>
+                            <f:facet name="header">User ID</f:facet>
+                            #{item.userID}
+                        </h:column>
+                        <h:column>
+                            <f:facet name="header">Forename</f:facet>
+                            #{item.getfName()}
+                        </h:column>
+                        <h:column>
+                            <f:facet name="header">Surname</f:facet>
+                            #{item.getsName()}
+                        </h:column>
+                        <h:column>
+                            <f:facet name="header">Date Taken</f:facet>
+                            #{item.resultDate}
+                        </h:column>
+                        <h:column>
+                            <f:facet name="header">Test Type</f:facet>
+                            #{item.reportType}
+                        </h:column>
+                        <h:column>
+                            <f:facet name="header">Score</f:facet>
+                            #{item.score}
+                        </h:column>
+                    </h:dataTable>
+                    <h:outputText rendered="#{gradeBean.hasSearchData == 2}" value="No Results Found"/>
+                </div>
+                
+                <h:outputText value="#{gradeBean.sqlMessage}"/>
+            </div>
+        </div>
+    </h:body>
+</html>
